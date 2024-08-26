@@ -1,0 +1,76 @@
+/**
+ * @name Zypther's Tweaks
+ * @author Zypther
+ * @version 1.0.1
+ * @description Various personal tweaks.
+*/
+
+/* Banishes Strikethrough */
+s::before,[class^="strikethrough_"]::before {
+    content:"(";
+}
+s::after,[class^="strikethrough_"]::after {
+    content:")";
+}
+s,[class^="strikethrough_"] {
+    text-decoration:none;
+}
+
+/* Puts the prompt for RoleMembers on top of everything else */
+.role-members-popout {
+    z-index: 9999;
+}
+.layer-v9HyYc.popoutRight-1veHKi {
+    z-index: 9999;
+}
+
+/* Turns the background of the spoiler check box to black when it's checked */
+.theme-dark .da-checked {
+    background-color: unset;
+}
+
+/* Hides blue outline when using arrow keys */
+.theme-dark {
+	--focus-primary: none;
+}
+
+/* Removes gray filter over unavailable emotes */
+button[class*="emojiItemDisabled"] {
+	-webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+/* Hides Snowsgiving Stuff */
+.wrapper-2ojdJo{
+    display: none;
+}
+
+.contentWrapperWithSnowsgivingNotice-1AvSpB {
+    grid-template-rows: 24px auto;
+    padding-top: 16px;
+}
+
+div[data-list-item-id*="snowsgiving"] {
+    display: none;
+}
+
+/* Shrinks the avatars that're too big */
+.avatar-2e8lTP {
+    width: 30px;
+    height: 30px;
+}
+
+/* Remove avatar decorations */
+[class^=avatarDecoration] {
+    display: none;
+}
+
+/* Remove Discover Button */
+[data-list-item-id="guildsnav___guild-discover-button"]
+{ 
+  display: none;
+}
+
+[data-list-id="guildsnav"] [class^="footer"] {
+    display: none;
+}
