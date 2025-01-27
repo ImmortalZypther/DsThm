@@ -55,7 +55,7 @@ div[data-list-item-id*="snowsgiving"] {
 }
 
 /* Shrinks the avatars that're too big */
-.avatar-2e8lTP {
+.avatar_f9f2ca {
     width: 30px;
     height: 30px;
 }
@@ -73,4 +73,10 @@ div[data-list-item-id*="snowsgiving"] {
 
 [data-list-id="guildsnav"] [class^="footer"] {
     display: none;
+}
+
+/* Fix Discord Message Spacing */
+:root {
+    --chat-markup-line-height: 16px;
+    --custom-message-padding-vertical-container-compact: 0.1rem;
 }
