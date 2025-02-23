@@ -80,3 +80,12 @@ div[data-list-item-id*="snowsgiving"] {
     --chat-markup-line-height: 16px;
     --custom-message-padding-vertical-container-compact: 0.1rem;
 }
+
+/* Banishes Subtext */
+small::before {
+    content: "-# ";
+}
+small {
+    font-size: 100% !important;
+    color: var(--text-normal) !important;
+}
