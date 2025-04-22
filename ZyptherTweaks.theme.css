@@ -1,7 +1,7 @@
 /**
  * @name Zypther's Tweaks
  * @author Zypther
- * @version 1.0.3
+ * @version 1.0.4
  * @description Various personal tweaks.
 */
 
@@ -69,6 +69,16 @@ div[data-list-item-id*="snowsgiving"] {
 [data-list-item-id="guildsnav___guild-discover-button"]
 { 
   display: none;
+}
+
+/* Hide Nitro Gift button */
+button[aria-label="Send a gift"] {
+    display: none;
+}
+
+/* Hide app launcher */
+button[aria-label="Apps"] {
+    display: none;
 }
 
 [data-list-id="guildsnav"] [class^="footer"] {
