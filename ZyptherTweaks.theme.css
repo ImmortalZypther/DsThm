@@ -99,3 +99,9 @@ small {
     font-size: 100% !important;
     color: var(--text-normal) !important;
 }
+
+/* Disables profile animations */
+[class^="profileEffects"]
+{
+  display: none;
+}
