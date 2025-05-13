@@ -105,3 +105,8 @@ small {
 {
   display: none;
 }
+
+/* Disable Clan Tags */
+[class^="chipletContainerInner_"] {
+  display: none !important;
+}
