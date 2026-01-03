@@ -115,3 +115,13 @@ small {
 [class^="member__"] [class*="nameplated__"] [class^="container__"] {
   display: none;
 }
+
+/* Disable DMs profile customizations */
+[class*="-avatarDecoration"] {
+    display:none;
+}
+
+/* Disable profile animations */
+[class*="profileEffects__"] { 
+	display: none; 
+}
