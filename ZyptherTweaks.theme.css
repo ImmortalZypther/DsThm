@@ -122,6 +122,6 @@ small {
 }
 
 /* Disable profile animations */
-[class*="profileEffects__"] { 
+[class*="-profileEffects"] { 
 	display: none; 
 }
