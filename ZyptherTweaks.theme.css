@@ -1,7 +1,7 @@
 /**
  * @name Zypther's Tweaks
  * @author Zypther
- * @version 1.0.7
+ * @version 1.0.8
  * @description Various personal tweaks.
 */
 
@@ -124,4 +124,10 @@ small {
 /* Disable profile animations */
 [class*="-profileEffects"] { 
 	display: none; 
+}
+
+/* Make all usernames the default font */
+[class*="-username"] {
+    font-family: inherit !important;
+    letter-spacing: inherit !important;
 }
