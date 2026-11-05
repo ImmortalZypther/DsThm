@@ -1,7 +1,7 @@
 /**
  * @name Zypther's Tweaks
  * @author Zypther
- * @version 1.0.9
+ * @version 1.0.10
  * @description Various personal tweaks.
 */
 
@@ -137,4 +137,7 @@ small {
     max-width: 70%;
     margin: 0 auto;
     position: relative;
+}
+[class^="aside_"] {
+    width: var(--custom-member-list-width);
 }
