@@ -1,7 +1,7 @@
 /**
  * @name Zypther's Tweaks
  * @author Zypther
- * @version 1.0.10
+ * @version 1.0.11
  * @description Various personal tweaks.
 */
 
@@ -133,6 +133,7 @@ small {
 }
 
 /* Centers chat */
+/*
 [class^="chatContent_"] {
     max-width: 70%;
     margin: 0 auto;
@@ -141,3 +142,4 @@ small {
 [class^="aside_"] {
     width: var(--custom-member-list-width);
 }
+*/
