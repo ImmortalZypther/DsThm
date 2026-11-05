@@ -131,3 +131,10 @@ small {
     font-family: inherit !important;
     letter-spacing: inherit !important;
 }
+
+/* Centers chat */
+[class^="chatContent_"] {
+    max-width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
